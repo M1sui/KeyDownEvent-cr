@@ -18,7 +18,9 @@ A small-scale framework for capturing KeyDown events in Windows/Crystal.
 
 ```crystal
 require "keydown"
+
 key=Key.new(debug: false)
+
 key.keyDown{|keyName,vid|
 	puts keyName
 	puts vid
