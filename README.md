@@ -1,6 +1,6 @@
 # keydown
 
-TODO: Write a description here
+A small-scale framework for capturing KeyDown events in Windows/Crystal.
 
 ## Installation
 
