@@ -9,22 +9,23 @@ TODO: Write a description here
    ```yaml
    dependencies:
      keydown:
-       github: your-github-user/keydown
+       github: M1sui/keydown
    ```
 
-2. Run `shards install`
+2. Run `shards` or `shards instal`
 
 ## Usage
 
 ```crystal
 require "keydown"
+key=Key.new(debug: false)
+key.keyDown{|keyName,vid|
+	puts keyName
+	puts vid
+}
+
+key.run
 ```
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
@@ -36,4 +37,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [InstanceMethod](https://github.com/your-github-user) - creator and maintainer
+- [InstanceMethod](https://github.com/M1sui)(X: [Instance_VRC](https://x.com/Instance_VRC)) - creator and maintainer
