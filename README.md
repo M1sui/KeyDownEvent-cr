@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      keydown:
-       github: M1sui/keydown
+       github: M1sui/KeyDownEvent-cr
    ```
 
 2. Run `shards` or `shards instal`
